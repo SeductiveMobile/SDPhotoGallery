@@ -443,3 +443,14 @@ Project/PhotoGallery/Pods/Target Support Files/Pods-SVProgressHUD/Pods-SVProgres
 Project/PhotoGallery/Pods/Target Support Files/Pods-SVProgressHUD/Pods-SVProgressHUD-prefix.pch
 Project/PhotoGallery/Pods/Target Support Files/Pods-SVProgressHUD/Pods-SVProgressHUD-Private.xcconfig
 Project/PhotoGallery/Pods/Target Support Files/Pods-SVProgressHUD/Pods-SVProgressHUD.xcconfig
+Project/PhotoGallery/Pods/FXBlurView/LICENCE.md
+Project/PhotoGallery/Pods/FXBlurView/README.md
+Project/PhotoGallery/Pods/FXBlurView/FXBlurView/FXBlurView.h
+Project/PhotoGallery/Pods/FXBlurView/FXBlurView/FXBlurView.m
+Project/PhotoGallery/Pods/Headers/Private/FXBlurView/FXBlurView.h
+Project/PhotoGallery/Pods/Headers/Public/FXBlurView/FXBlurView.h
+Project/PhotoGallery/Pods/Pods.xcodeproj/xcuserdata/bohdan.xcuserdatad/xcschemes/Pods-FXBlurView.xcscheme
+Project/PhotoGallery/Pods/Target Support Files/Pods-FXBlurView/Pods-FXBlurView-dummy.m
+Project/PhotoGallery/Pods/Target Support Files/Pods-FXBlurView/Pods-FXBlurView-prefix.pch
+Project/PhotoGallery/Pods/Target Support Files/Pods-FXBlurView/Pods-FXBlurView-Private.xcconfig
+Project/PhotoGallery/Pods/Target Support Files/Pods-FXBlurView/Pods-FXBlurView.xcconfig
