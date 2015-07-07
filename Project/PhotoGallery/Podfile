@@ -1,0 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+pod 'SDPhotoGallerySpec', :path => '~/git/SDPhotoGallery/SDPhotoGallerySpec.podspec'
+pod 'JSONModel'
+pod 'SSKeychain'
+pod 'SVProgressHUD'

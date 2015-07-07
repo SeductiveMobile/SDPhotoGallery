@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8F3C2F98-B961-4204-A77B-3A9F8A644340</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhotoGallery</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D4AB59A0783AD7EE603DF3F60AD31834917ED09</key>
+		<string>https://github.com/SeductiveMobile/SDPhotoGallery.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project/PhotoGallery/PhotoGallery.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D4AB59A0783AD7EE603DF3F60AD31834917ED09</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SeductiveMobile/SDPhotoGallery.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D4AB59A0783AD7EE603DF3F60AD31834917ED09</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D4AB59A0783AD7EE603DF3F60AD31834917ED09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SDPhotoGallery</string>
+		</dict>
+	</array>
+</dict>
+</plist>
