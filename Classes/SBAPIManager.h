@@ -13,7 +13,6 @@
 @interface SBAPIManager : AFHTTPRequestOperationManager
 
 - (void)setUsername:(NSString *)username andPassword:(NSString *)password;
-- (void)setToken:(NSString *)token;
 
 + (SBAPIManager *)sharedManager;
 

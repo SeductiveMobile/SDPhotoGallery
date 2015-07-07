@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "TWUploaderImage.h"
-#import "CredentialStore.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "IDMPhotoBrowser.h"
 #import "TWPhotoStruct.h"
@@ -55,7 +54,7 @@ typedef enum {
 
 -(void) loadPhotos {
     __weak typeof (self) weakSelf = self;
-    [UIGalleryToServer loadPhotosWithParams:nil success:^(id responseObject) {
+    [UIGalleryToServer loadPhotosWithParams:nil url:@"" success:^(id responseObject) {
         weakSelf.dataSource = [NSMutableArray array];
         [self.dataSource addObject:responseObject];
         [weakSelf.collectionView reloadData];
@@ -138,7 +137,7 @@ typedef enum {
     TWPhotoStruct * photo = (self.dataSource[indexPath.section])[indexPath.row];
     NSDictionary * params = @{@"photo_id":photo.photoID}; // can be parameters as you wish
     __weak typeof(self) weakSelf = self;
-    [UIGalleryToServer deletePhotoWithParams:params success:^(id responseObject) {
+    [UIGalleryToServer deletePhotoWithParams:params url:@"" success:^(id responseObject) {
         [SVProgressHUD dismiss];
         [weakSelf removePhotoFromLocalStoreAndRefreshUIWithIndexPath:indexPath];
     } failure:^(NSError *error) {

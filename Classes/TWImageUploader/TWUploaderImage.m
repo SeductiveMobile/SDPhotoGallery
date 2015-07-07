@@ -310,7 +310,7 @@
 
     __weak typeof(self) weakSelf = self;
 
-    [UIGalleryToServer uploadImageWithParams:nil iamge:imageData success:^(id responseObject) {
+    [UIGalleryToServer uploadImageWithParams:nil url:@"" iamge:imageData success:^(id responseObject) {
         NSError *errorMessage;
         NSDictionary * dict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&errorMessage];
         TWPhotoStruct * photo = [[TWPhotoStruct alloc] initWithDictionary:dict error:&errorMessage];

@@ -8,7 +8,6 @@
 
 #import "SBAPIManager.h"
 #import "AFNetworkActivityIndicatorManager.h"
-#import "CredentialStore.h"
 #import "ConstantsValues.h"
 
 @implementation SBAPIManager
@@ -22,12 +21,6 @@
     
 }
 
-- (void)setToken:(NSString *)token
-{
-    [CredentialStore setAuthToken:token];
-    //[self.requestSerializer clearAuthorizationHeader];
-    //[self.requestSerializer setAuthorizationHeaderFieldWithToken:token];
-}
 
 #pragma mark - Initialization
 

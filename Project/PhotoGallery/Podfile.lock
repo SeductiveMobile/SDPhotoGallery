@@ -30,17 +30,16 @@ PODS:
   - SDPhotoGallerySpec (0.0.1):
     - AFNetworking (~> 2.4)
     - IDMPhotoBrowser
+    - JSONModel
     - SDWebImage (~> 3.6)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
-  - SSKeychain (1.2.3)
   - SVProgressHUD (1.1.3)
 
 DEPENDENCIES:
   - JSONModel
   - SDPhotoGallerySpec (from `~/git/SDPhotoGallery/SDPhotoGallerySpec.podspec`)
-  - SSKeychain
   - SVProgressHUD
 
 EXTERNAL SOURCES:
@@ -53,9 +52,8 @@ SPEC CHECKSUMS:
   IDMPhotoBrowser: ebbfa6690456b72dd92d93b7bc11d71519f4d06d
   JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
-  SDPhotoGallerySpec: c6969fba946f85ae8ff517050d2feb26b38e23ac
+  SDPhotoGallerySpec: 944fc17445d4353d805ff82670fbc5c3360b9451
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
-  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
 COCOAPODS: 0.37.2

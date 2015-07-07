@@ -12,10 +12,7 @@
 
 @implementation UIGalleryToServer
 
-+(void) deletePhotoWithParams:(NSDictionary *)params  success:(void (^) (id responseObject))handler failure:(void (^) (NSError *error))failureHandler {
-    NSLog(@"*******YOU NEED PASTE NEW URL TO DELETE PHOTO IN UIGalleryToServer.h*******");
-    NSString * url = [NSString stringWithFormat:@"http://seductive-mobile.com"];
-    
++(void) deletePhotoWithParams:(NSDictionary *)params url:(NSString*)url  success:(void (^) (id responseObject))handler failure:(void (^) (NSError *error))failureHandler {
     [[SBAPIManager sharedManager] POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         handler(@"DELETED");
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -23,10 +20,8 @@
     }];
 }
 
-+(void) uploadImageWithParams:(NSDictionary *)params iamge:(NSData *)imageData success:(void (^) (id responseObject))handler failure:(void (^) (NSError *error))failureHandler progress:(void (^) (float progressValue))progress {
-    NSLog(@"*******YOU NEED PASTE NEW URL TO UPLOAD PHOTO IN UIGalleryToServer.h*******");
-    NSString * url = [NSString stringWithFormat:@"http://seductive-mobile.com"];
-    
++(void) uploadImageWithParams:(NSDictionary *)params url:(NSString*)url iamge:(NSData *)imageData success:(void (^) (id responseObject))handler failure:(void (^) (NSError *error))failureHandler progress:(void (^) (float progressValue))progress {
+
     AFHTTPRequestOperation *operation = [[SBAPIManager sharedManager] POST:url parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
         [formData appendPartWithFileData:imageData
                                     name:@"uploadfile"
@@ -46,10 +41,7 @@
 }
 
 
-+(void) loadPhotosWithParams:(NSDictionary *)params success:(void (^) (id responseObject))handler failure:(void (^) (NSError *error))failureHandler {
-    NSLog(@"*******YOU NEED PASTE NEW URL TO LOAD PHOTOS IN UIGalleryToServer.h*******");
-    NSString * url = [NSString stringWithFormat:@"http://seductive-mobile.com"];
-    
++(void) loadPhotosWithParams:(NSDictionary *)params url:(NSString*)url success:(void (^) (id responseObject))handler failure:(void (^) (NSError *error))failureHandler {
     [[SBAPIManager sharedManager] GET:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSError *errorMessage;
         NSArray * responseObjects = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&errorMessage];

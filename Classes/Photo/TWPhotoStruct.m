@@ -7,8 +7,7 @@
 //
 
 #import "TWPhotoStruct.h"
-
-#define kTWProductionSiteURL @"http://tezway.kz"
+#import "ConstantsValues.h"
 
 @implementation TWPhotoStruct
 

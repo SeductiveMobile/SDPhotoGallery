@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SDPhotoGallerySpec"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Great Photo gallety that give you upload, show pictures with cool animations"
 
   s.description  = <<-DESC
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Bohdan" => "" }
+  s.author             = { "Bohdan" => "webslesar@gmail.com" }
   # Or just: s.author    = "Bohdan"
   # s.authors            = { "Bohdan" => "" }
   # s.social_media_url   = "http://twitter.com/Bohdan"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SeductiveMobile/SDPhotoGallery.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/SeductiveMobile/SDPhotoGallery.git", :tag => "#{s.version}" } 
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -136,6 +136,7 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking", "~> 2.4"
   s.dependency "IDMPhotoBrowser"
   s.dependency "SDWebImage", "~> 3.6"
+  s.dependency "JSONModel"
   
 
 end
