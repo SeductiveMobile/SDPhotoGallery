@@ -8,7 +8,7 @@
 
 #import "SBAPIManager.h"
 #import "AFNetworkActivityIndicatorManager.h"
-#import "ConstantsValues.h"
+#import "TWConstantsValues.h"
 
 @implementation SBAPIManager
 

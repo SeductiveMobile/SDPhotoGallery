@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SDPhotoGallerySpec"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Great Photo gallety that give you upload, show pictures with cool animations"
 
   s.description  = <<-DESC
@@ -137,6 +137,6 @@ Pod::Spec.new do |s|
   s.dependency "IDMPhotoBrowser"
   s.dependency "SDWebImage", "~> 3.6"
   s.dependency "JSONModel"
-  
+  s.dependency "FXBlurView"
 
 end

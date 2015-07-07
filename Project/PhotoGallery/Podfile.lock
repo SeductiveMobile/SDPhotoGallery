@@ -21,6 +21,7 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - DACircularProgress (2.3.1)
+  - FXBlurView (1.6.3)
   - IDMPhotoBrowser (1.6.2):
     - AFNetworking
     - DACircularProgress
@@ -29,6 +30,7 @@ PODS:
   - pop (1.0.7)
   - SDPhotoGallerySpec (0.0.1):
     - AFNetworking (~> 2.4)
+    - FXBlurView
     - IDMPhotoBrowser
     - JSONModel
     - SDWebImage (~> 3.6)
@@ -49,10 +51,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FXBlurView: c6d23f3d35af2c6282296a2930f61c6e2c788d01
   IDMPhotoBrowser: ebbfa6690456b72dd92d93b7bc11d71519f4d06d
   JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
-  SDPhotoGallerySpec: 944fc17445d4353d805ff82670fbc5c3360b9451
+  SDPhotoGallerySpec: a6a34cf6bf444635d572c9410590545134d096d5
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 

@@ -9,7 +9,7 @@
 #import "TWUploaderImage.h"
 #import "AFHTTPRequestOperationManager.h"
 #import "SBAPIManager.h"
-#import "FXBlurView.h"
+#import <FXBlurView/FXBlurView.h>
 #import "UIBAlertView.h"
 #import "TWPhotoStruct.h"
 #import "UIGalleryToServer.h"

@@ -7,20 +7,20 @@
 //
 
 #import "TWPhotoStruct.h"
-#import "ConstantsValues.h"
+#import "TWConstantsValues.h"
 
 @implementation TWPhotoStruct
 
 -(NSString *) getSmallPhotoURL {
-    return [NSString stringWithFormat:@"%@%@", kTWProductionSiteURL, self.contentSmall];
+    return self.contentSmall;
 }
 
 -(NSString *) getMediumPhotoURL {
-    return [NSString stringWithFormat:@"%@%@", kTWProductionSiteURL,  self.contentMedium];
+    return self.contentMedium;
 }
 
 -(NSString *) getLargePhotoURL {
-    return [NSString stringWithFormat:@"%@%@", kTWProductionSiteURL, self.contentLarge];
+    return self.contentLarge;
 }
 
 -(NSURL *) getBrowserURL {
